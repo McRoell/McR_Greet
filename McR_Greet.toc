@@ -1,0 +1,12 @@
+## Interface: 100100
+## Title: McR Greet
+## Author: McRoell
+## Notes: Send hail's into the guild chat |cffff6060 Usage:|r /mcrgreet  (read readme.txt for details)
+## Notes-deDE: Grüße in den Gildenchat senden |cffff6060 Usage:|r /mcrgreet   (lies readme.txt für Details)
+## Version: 0.9
+## X-Build: 2
+## X-ReleaseDate: 2019-12-17T14:55:00
+
+mcr_greet.lua
+mcr_greettxts.lua
+mcr_customtxt.lua
