@@ -1,4 +1,4 @@
--- MCR Greet V 0.6 --
+-- MCR Greet V 0.9 --
 
 -- Definition der Texte als Array, bzw. Table (LUA halt)
 	GREETTAC = {
