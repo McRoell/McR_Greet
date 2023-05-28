@@ -1,5 +1,11 @@
 Ein paar kleine Hinweise für McR_Greet.
 
+Version 0.9, 23.05.2023 (es wurde auch mal Zeit)
+Mehrsprachige Lokalisierung vorbereitet und für Deutsch probehalber umgesetzt.
+Anleitungen zum Implementieren eigener (benutzerdefinierter) Phrasen im Ordner 
+„HowTo's“ hinzugefügt.
+Den ganzen Quatsch generell mal aufgeräumt.
+
 Version 0.8, 2019-12-17
 Anpassung der Uhrzeiten - der Abend geht jetzt bis 4:00 und nicht nur bis 24:00
 Hinzufügen der Aktuellen Clientversion 1.13.03
