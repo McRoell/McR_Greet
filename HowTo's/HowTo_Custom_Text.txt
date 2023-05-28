@@ -3,10 +3,10 @@ There are three simple steps to success.
 
 1. Read through the instructions once so that there are no problems later.
 2. Edit or create the mcr_customtxt_templ.lua file.
-3. Rename the file to mcr_customtxt.lua so that it won't be deleted when you update
-    will be pushed over.
     It is important that you use this exact name for everything to work.
-
+3. Make a backup of the file (copy with different name - mcr_customtext.lua.bak 
+    maybe)so that it is not overridden by an update.
+   
 Optionally, you can also save the mcr_customtxt.lua file somewhere and
 restore from there if necessary.
 
@@ -42,11 +42,11 @@ split into multiple lines.
 
 In our case it would look like this:
 variable = {
-"Hello",
-"whoo,"
-"I greet you"
-};
+            "Hello",
+            "whoo,"
+            "I greet you"
+            };
 
-There is no comma after the last entry.
+There is no comma at the end of the last line of a section.
 
 You can remove the comments (lines with -- at the beginning) or just leave them in...

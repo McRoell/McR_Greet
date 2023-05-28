@@ -1,4 +1,9 @@
-GREETMOC =  {
+--[[ 
+    Important note: Please make a backup of this file after you have edited 
+    it, so that your adjustments are not lost when you update or reinstall 
+    the addon.
+]]--
+    GREETMOC =  {
     -- Please enter MORNING greetings below.
     -- Just insert additional lines if needed...
     

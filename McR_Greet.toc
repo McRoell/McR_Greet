@@ -9,5 +9,5 @@
 
 mcr_greet.lua
 mcr_greettxt.lua
-locales/mcr_greettxt_deDE.txt
+locales/mcr_greettxt_deDE.lua
 mcr_customtxt.lua
