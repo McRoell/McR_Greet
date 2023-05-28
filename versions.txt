@@ -1,4 +1,4 @@
-Version 0.9, 2023-05-23 (it's about time, already)
+Version 0.9, 2023-05-28 (it's about time, already)
 Multilingual localization prepared and implemented for German.
 Added HowTo's how to implement your own (custom) phrases into folder "HowTo's.
 Cleaned up the whole thing in general
