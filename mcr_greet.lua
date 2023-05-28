@@ -3,7 +3,7 @@
 local function MCRGREETCMD()
 	ZEIT = date("%H");
 
-	--Array zusammenführen (Quellen: mcr_greettxts.lua und mcr_customtxt.lua (C))
+	--Array zusammenführen (Quellen: mcr_greettxt.lua (bzw. die localisierte Variante)) und mcr_customtxt.lua (C))
 	--Varaible ISTIMPORT wird gesetzt, wenn die Arrays zusammengeführt wurden
 	if ISTIMPORT == NIL then
 		ISTIMPORT = 1;
