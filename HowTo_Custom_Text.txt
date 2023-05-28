@@ -1,0 +1,52 @@
+#### Basics ####
+There are three simple steps to success.
+
+1. Read through the instructions once so that there are no problems later.
+2. Edit or create the mcr_customtxt_templ.lua file.
+3. Rename the file to mcr_customtxt.lua so that it won't be deleted when you update
+    will be pushed over.
+    It is important that you use this exact name for everything to work.
+
+Optionally, you can also save the mcr_customtxt.lua file somewhere and
+restore from there if necessary.
+
+##### Instructions and a little background #####
+Please only write in the areas provided and the specifications
+for quotation marks, commas and curly brackets.
+Otherwise there may be problems in the game.
+
+There are four "time zones" for each of which you can write your own texts.
+Each of these time zones is represented by a so-called variable.
+1. 04:00 to 10:59 - Morning - GREETMOC
+2. 11:00 to 13:59 - Noon - GREETMITC
+3. 14:00 to 17:59 - Daytime - GREETTAC
+4. 18:00 to 03:59 - Evening - GREETABC
+
+Strictly speaking, these are not variables but arrays, since here
+multiple values can be saved at once. This is HERE now though
+incidental.
+
+The names of the variables must not be changed.
+How does it all work now?
+
+The system follows a certain structure - one also speaks of one here
+Syntax - which looks like this:
+variable = {item1, item2, item3, etc.};
+
+The commas separate the individual values. If a text is to be saved, must
+be placed in quotation marks. The whole package will then come with
+enclosed in curly brackets {} and a semicolon ; finished - in
+Basically how a period ends a sentence.
+So that you don't have to bother yourself with endlessly long lines, you can do the whole thing
+split into multiple lines.
+
+In our case it would look like this:
+variable = {
+"Hello",
+"whoo,"
+"I greet you"
+};
+
+There is no comma after the last entry.
+
+You can remove the comments (lines with -- at the beginning) or just leave them in...
