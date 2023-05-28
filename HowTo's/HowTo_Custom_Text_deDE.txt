@@ -2,11 +2,11 @@
 Es sind drei einfache Schritte zum Erfolg.
 
 1. Lest Euch die Anleitung einmal durch, damit es später keine Probleme gibt.
-2. Editiert die Datei mcr_customtxt_templ.lua oder legt sie an.
-3. Nenn die Datei in mcr_customtxt.lua ab, damit sie bei einem Update nicht
-   überschieben wird.
+2. Editiert die Datei mcr_customtxt.lua oder legt sie an.
    Es ist wichtig, dass ihr genau diesen Namen verwendet, damit alles funktioniert.
-
+3. Macht ein Backup der Datei (Kopie mit anderem Namen - mcr_customtext.lua.bak) 
+   vielleicht - damit sie bei einem Update nicht überschieben wird. 
+   
 Wahlweise könnt Ihr die Datei mcr_customtxt.lua auch irgendwo wegsichern und
 notfalls von dort wiederherstellen.
 
@@ -42,11 +42,11 @@ in mehrere Zeilen aufteilen.
 
 In unserem Fall sähe dass dann so aus:
 Variable = {
-"Hallo",
-"Huhu",
-"Ich grüße Euch"
-};
+            "Hallo",
+            "Huhu",
+            "Ich grüße Euch"
+            };
 
-Nach dem letzten Eintrag wird kein Komma gesetzt.
+Am Ende der letzten Zeile eines Abschnitts kommt kein Komma hin.
 
 Die Kommentare (Zeilen mit -- am Anfang) könnt Ihr entfernen oder einfach drin lassen...

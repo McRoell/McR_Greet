@@ -5,7 +5,7 @@ local function MCRGREETCMD()
 
 	--Array zusammenführen (Quellen: mcr_greettxt.lua (bzw. die localisierte Variante)) und mcr_customtxt.lua (C))
 	--Varaible ISTIMPORT wird gesetzt, wenn die Arrays zusammengeführt wurden
-	if ISTIMPORT == NIL then
+	if ISTIMPORT == NIL then -- Warum diese Abfrage? ISTIMPORT wird nicht weiter abgefragt. Kann wohl weg - Version 0.91?
 		ISTIMPORT = 1;
 		if table.getn(GREETTAC) ~= 0 then
 			for i = 1, table.getn(GREETTAC) do
