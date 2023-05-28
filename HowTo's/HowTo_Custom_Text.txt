@@ -4,8 +4,8 @@ There are three simple steps to success.
 1. Read through the instructions once so that there are no problems later.
 2. Edit or create the mcr_customtxt_templ.lua file.
     It is important that you use this exact name for everything to work.
-3. Make a backup of the file (copy with different name - mcr_customtext.lua.bak 
-    maybe)so that it is not overridden by an update.
+3. Make a backup of the file (copy with different name, maybe 
+    mcr_customtext.lua.bak) so that it won't be overwritten by an update.
    
 Optionally, you can also save the mcr_customtxt.lua file somewhere and
 restore from there if necessary.
