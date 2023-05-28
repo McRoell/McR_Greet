@@ -1,12 +1,12 @@
 -- MCR Greet V 0.9 --
-
+if (GetLocale() == "deDE") then
 -- Definition der Texte als Array, bzw. Table (LUA halt)
 	GREETTA = {
 				"MOIN!",
         		"Moinsen",
         		"Halli Hallo",
         		"HiHo",
-				"Hallo Allerseits!",
+				"Hallo Allerseits!"
 				};
 
 	GREETAB = {
@@ -24,3 +24,4 @@
 				"Mahlzeit!",
 				"Einen Wunderguten"
 				};
+end;
