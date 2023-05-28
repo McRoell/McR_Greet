@@ -14,7 +14,7 @@
     
     GREETMO =  {
                 "GOOD MORNING!",
-                "Good morning everyone,
+                "Good morning everyone!",
                 "It's clearly too early - good morning"
                 };
     
