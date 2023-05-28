@@ -8,5 +8,5 @@
 ## X-ReleaseDate: 2019-12-17T14:55:00
 
 mcr_greet.lua
-mcr_greettxts.lua
+mcr_greettxt.lua
 mcr_customtxt.lua
