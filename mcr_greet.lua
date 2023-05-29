@@ -1,44 +1,40 @@
--- MCR Greet V 0.9 --
+-- MCR Greet V 0.91 --
 
 local function MCRGREETCMD()
-	ZEIT = date("%H");
+	TIME = date("%H");
 
-	--Array zusammenführen (Quellen: mcr_greettxt.lua (bzw. die localisierte Variante)) und mcr_customtxt.lua (C))
-	--Varaible ISTIMPORT wird gesetzt, wenn die Arrays zusammengeführt wurden
-	if ISTIMPORT == NIL then -- Warum diese Abfrage? ISTIMPORT wird nicht weiter abgefragt. Kann wohl weg - Version 0.91?
-		ISTIMPORT = 1;
-		if table.getn(GREETTAC) ~= 0 then
-			for i = 1, table.getn(GREETTAC) do
-				table.insert(GREETTA, 1, GREETTAC[i]);
-			end;
+	--Merge array (sources: mcr_greettxt.lua (or the localized variant) and mcr_customtxt.lua (C suffix))
+	if table.getn(GREETTAC) ~= 0 then
+		for i = 1, table.getn(GREETTAC) do
+			table.insert(GREETTA, 1, GREETTAC[i]);
 		end;
-			if not table.getn(GREETMOC) ~= 0 then
-			for i = 1, table.getn(GREETMOC) do
-				table.insert(GREETMO, 1, GREETMOC[i]);
-			end;
+	end;
+		if not table.getn(GREETMOC) ~= 0 then
+		for i = 1, table.getn(GREETMOC) do
+			table.insert(GREETMO, 1, GREETMOC[i]);
 		end;
-		if not table.getn(GREETABC) ~= 0 then
-			for i = 1, table.getn(GREETABC) do
-				table.insert(GREETAB, 1, GREETABC[i]);
-			end
-		end;
-		if not table.getn(GREETMITC) ~= 0 then
-			for i = 1, table.getn(GREETMITC) do
-				table.insert(GREETMIT, 1, GREETMITC[i]);
-			end;
+	end;
+	if not table.getn(GREETABC) ~= 0 then
+		for i = 1, table.getn(GREETABC) do
+			table.insert(GREETAB, 1, GREETABC[i]);
+		end
+	end;
+	if not table.getn(GREETMITC) ~= 0 then
+		for i = 1, table.getn(GREETMITC) do
+			table.insert(GREETMIT, 1, GREETMITC[i]);
 		end;
 	end;
 
-	-- Tageszeit ermitteln
-	if 	   (ZEIT >= "04" and ZEIT <  "11") then GREETTXT = GREETMO[math.random(table.getn(GREETMO))];
-	elseif (ZEIT >= "11" and ZEIT <= "14") then GREETTXT = GREETMIT[math.random(table.getn(GREETMIT))];
-	elseif (ZEIT >  "14" and ZEIT <= "18") then GREETTXT = GREETTA[math.random(table.getn(GREETTA))];
+
+	-- Determine time of day
+	if 	   (TIME >= "04" and TIME <  "11") then GREETTXT = GREETMO[math.random(table.getn(GREETMO))];
+	elseif (TIME >= "11" and TIME <= "14") then GREETTXT = GREETMIT[math.random(table.getn(GREETMIT))];
+	elseif (TIME >  "14" and TIME <= "18") then GREETTXT = GREETTA[math.random(table.getn(GREETTA))];
 	else										GREETTXT = GREETAB[math.random(table.getn(GREETAB))];
     end;
 
--- Ausgabe
+-- Output
 	SendChatMessage(GREETTXT, "GUILD", "", "");
--- print(GREETTXT);
 
 end;
 
