@@ -1,23 +1,9 @@
-A few little hints for McR_Greet.
+McR Greet - Send greetings in the guild chat
 
-Version 0.9, 2023-05-23 (it's about time, already)
-Multilingual localization prepared and implemented for German.
-Added HowTo's how to implement your own (custom) phrases into folder "HowTo's.
-Cleaned up the whole thing in general
+Simply run /mcrgreet as a console command or implement it in a macro to send hail's 
+into the guild chat. A random text, suitable for the current time will be selected.
+By editing the file mcr_customtxt_Template.lua you can add your own phrases. 
+See HowTo Folder for a how-to.
 
-Version 0.8, 2019-12-17
-Adjustment of the times - the evening now goes until 4:00 and not just 24:00
-Adding the current client version 1.13.03
-
-Version 0.7, 2019-12-09
-Minor changes to the descriptions.
-The entire directory is overwritten when the addon is updated.
-If you added your own texts please add the file mcr_customtxt.lua BEFORE
-an update and then copy it back into the directory.
-
-Version 0.6, 2019-12-08
-This version offers the possibility to easily and quickly change the whole 
-thing to your own expand texts. Simply add the file mcr_customtxt_Template.lua
-Open and edit with a text editor (e.g.: notepad.exe under Windows).
-More explanations of how and why can be found there.
-It is therefore no longer necessary to make adjustments directly in the script.
+Please make a backup of the file with your own phrases, once you have edited it, so 
+your adjustments are not lost when you update or reinstall the add-on

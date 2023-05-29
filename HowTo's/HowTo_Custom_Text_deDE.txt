@@ -2,13 +2,12 @@
 Es sind drei einfache Schritte zum Erfolg.
 
 1. Lest Euch die Anleitung einmal durch, damit es später keine Probleme gibt.
-2. Editiert die Datei mcr_customtxt.lua oder legt sie an.
-   Es ist wichtig, dass ihr genau diesen Namen verwendet, damit alles funktioniert.
-3. Macht ein Backup der Datei (Kopie mit anderem Namen - mcr_customtext.lua.bak) 
-   vielleicht - damit sie bei einem Update nicht überschieben wird. 
-   
-Wahlweise könnt Ihr die Datei mcr_customtxt.lua auch irgendwo wegsichern und
-notfalls von dort wiederherstellen.
+2. Editiert die Datei mcr_customtxt.lua mit Euren Sprüchen.
+	Es ist wichtig, dass ihr genau diesen Namen verwendet, damit alles 
+	funktioniert.
+3. Macht ein Backup der Datei. Sichert sie irgendwo hin, wo Ihr sie nach einem
+	Update oder einer Neuinstallation des Addons wiederfindet und in den Ordner
+	zurückschreiben könnt.
 
 ##### Anleitung und ein wenig Hintergrund #####
 Bitte nur in die dafür vorgesehenen Bereiche schreiben und die Vorgaben
