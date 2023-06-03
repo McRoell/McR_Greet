@@ -40,4 +40,3 @@ end;
 
 SLASH_MCRGREET1 = "/mcrgreet"
 SlashCmdList["MCRGREET"] = MCRGREETCMD;
-}
