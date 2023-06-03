@@ -27,10 +27,10 @@ local function MCRGREETCMD()
 
 
 	-- Determine time of day
-	if 	   (TIME >= "04" and TIME <  "11") then GREETTXT = GREETMO[math.random(table.getn(GREETMO))];
-	elseif (TIME >= "11" and TIME <= "14") then GREETTXT = GREETMIT[math.random(table.getn(GREETMIT))];
-	elseif (TIME >  "14" and TIME <= "18") then GREETTXT = GREETTA[math.random(table.getn(GREETTA))];
-	else										GREETTXT = GREETAB[math.random(table.getn(GREETAB))];
+	if 	   (TIME >= "04" and TIME <  "11") then	GREETTXT = GREETMO[math.random(table.getn(GREETMO))];
+	elseif (TIME >= "11" and TIME <= "14") then 	GREETTXT = GREETMIT[math.random(table.getn(GREETMIT))];
+	elseif (TIME >  "14" and TIME <= "18") then 	GREETTXT = GREETTA[math.random(table.getn(GREETTA))];
+	else						GREETTXT = GREETAB[math.random(table.getn(GREETAB))];
     end;
 
 -- Output
@@ -40,3 +40,4 @@ end;
 
 SLASH_MCRGREET1 = "/mcrgreet"
 SlashCmdList["MCRGREET"] = MCRGREETCMD;
+}
