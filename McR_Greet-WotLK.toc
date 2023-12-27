@@ -1,4 +1,4 @@
-## Interface: 30420
+## Interface: 30403
 ## Title: McR Greet
 ## Author: McRoell
 ## Notes: Send hail's into the guild chat |cffff6060 Usage:|r /mcrgreet  (see readme.txt for details)
