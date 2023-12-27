@@ -1,4 +1,4 @@
--- MCR Greet V 0.9 --
+-- MCR Greet V 0.95 --
 if (GetLocale() == "deDE") then
 -- Definition der Texte als Array, bzw. Table (LUA halt)
 	GREETTA = {
