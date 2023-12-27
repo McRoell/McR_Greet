@@ -1,4 +1,4 @@
-Version 0.91, 2023-12-27
+Version 0.92, 2023-12-27
 No new Code, only update to the Game Version (Interface 100200).
 
 Version 0.91, 2023-05-29
