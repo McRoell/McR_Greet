@@ -1,4 +1,4 @@
-MCR Greet -Begrüßungen in den Gilden-Chat senden.
+# MCR Greet - Begrüßungen in den Gilden-Chat senden. #
 
 Einfach /mcrgreet als Konsolenbefehl ausführen oder in ein Makro einbauen um eine 
 Begrüßung in den Gildenchat zu schreiben.

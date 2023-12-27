@@ -1,4 +1,4 @@
-McR Greet - Send greetings in the guild chat
+# McR Greet - Send greetings in the guild chat #
 
 Simply run /mcrgreet as a console command or implement it in a macro to send hail's 
 into the guild chat. A random text, suitable for the current time will be selected.
