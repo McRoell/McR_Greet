@@ -8,8 +8,5 @@
 ## X-ReleaseDate: 2023-012-28
 
 locales\Locales.xml
-
 mcr_greet.lua
-mcr_greettxt.lua
-
 mcr_customtxt.lua
