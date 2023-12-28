@@ -1,5 +1,7 @@
 -- MCR Greet V 0.92 --
 if (GetLocale() == "zhCN") then
+	print("McR Greet: 已加载中文问候语。");
+
 -- Definition of the texts as an array or table
 	DayTXT =	{
     			"HI!",

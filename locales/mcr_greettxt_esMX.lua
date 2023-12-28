@@ -1,5 +1,7 @@
 -- MCR Greet V 0.92 --
 if (GetLocale() == "esMX") then
+	print("McR Greet: Saludos cargados en español.");
+	
 -- Definition of the texts as an array or table
 	DayTXT =	{
     			"HI!",

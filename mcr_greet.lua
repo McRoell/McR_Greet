@@ -2,6 +2,10 @@
 
 local function MCRGREETCMD()
 	TIME = date("%H");
+	if (GetLocale() == "") then
+		print ("No Locale");
+		require("mcr_greettxt_default.lua");
+	end;
 
 	--Merge array (Sources: The localized variant of mcr_greettxt_xxYY.lua and mcr_customtxt.lua (Cust suffix))
 	if table.getn(DayTXTCust) ~= 0 then

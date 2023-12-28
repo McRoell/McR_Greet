@@ -1,5 +1,7 @@
 -- MCR Greet V 0.92 --
 if (GetLocale() == "koKR") then
+	print("McR Greet: 한국어로 인사말이 로드되었습니다.");
+
 -- Definition of the texts as an array or table
 	DayTXT =	{
     			"HI!",
