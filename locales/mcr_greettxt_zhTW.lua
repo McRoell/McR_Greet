@@ -1,26 +1,27 @@
--- MCR Greet V 0.95 --
+-- MCR Greet V 0.92 --
 if (GetLocale() == "zhTW") then
 -- Definition of the texts as an array or table
-    GREETTA = {
-                "HI!",
-                "G'day!",
-                "Hello everyone!"
-                };  
+	DayTXT =	{
+    			"HI!",
+      			"G'day!",
+       			"Hello everyone!",
+				"Good afternoon!"
+            	};  
     
-    GREETAB = {
-                "Good afternoon",
-                "Buenas Noches!",
-                "Good afternoon, everyone"
-                };
+    EveTXT = 	{
+              "Good evening",
+              "Buenas Noches!",
+              "Good evening, everyone"
+             	};
     
-    GREETMO =  {
-                "GOOD MORNING!",
-                "Good morning everyone!",
-                "It's clearly too early - good morning"
-                };
+    MorTXT = 	{
+              "GOOD MORNING!",
+              "Good morning everyone!",
+              "It's clearly too early - good morning"
+             	};
     
-    GREETMIT = {
-                "Good Afternoon",
-                "I hope you have enjoyed you meal, or will..."
-                };
+    NooTXT = 	{
+              "Good Afternoon",
+              "I hope you have enjoyed you meal, or will..."
+             	};
 end;

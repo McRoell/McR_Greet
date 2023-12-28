@@ -15,10 +15,10 @@ Otherwise there may be problems in the game.
 
 There are four "time zones" for each of which you can write your own texts.
 Each of these time zones is represented by a so-called variable.
-1. 04:00 to 10:59 - Morning - GREETMOC
-2. 11:00 to 13:59 - Noon - GREETMITC
-3. 14:00 to 17:59 - Daytime - GREETTAC
-4. 18:00 to 03:59 - Evening - GREETABC
+1. 04:00 to 10:59 - Morning - MorTXTCust
+2. 11:00 to 13:59 - Noon    - NooTXTCust
+3. 14:00 to 17:59 - Daytime - DayTXTCust
+4. 18:00 to 03:59 - Evening - EveTXTCust
 
 Strictly speaking, these are not variables but arrays, since here
 multiple values can be saved at once. This is HERE now though

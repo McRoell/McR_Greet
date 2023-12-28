@@ -1,27 +1,27 @@
--- MCR Greet V 0.95 --
+-- MCR Greet V 0.92 --
 if (GetLocale() == "deDE") then
 -- Definition der Texte als Array, bzw. Table (LUA halt)
-	GREETTA = {
+	DayTXT =	{
 				"MOIN!",
         		"Moinsen",
         		"Halli Hallo",
         		"HiHo",
 				"Hallo Allerseits!"
-				};
+			  	};
 
-	GREETAB = {
+	EveTXT = 	{
 				"Nabend!",
 				"Buenas Noches!",
 				"Guten Abend Allerseits!"
-				};
+			 	 };
 
-	GREETMO =  {
+	MorTXT =  	{
 				"Guten Morgen!",
 				"Es ist eindeutig zu früh - Moin!"
-				};
+			   	};
 
-	GREETMIT = {
+	NooTXT = 	{
 				"Mahlzeit!",
 				"Einen Wunderguten"
-				};
+			  	};
 end;

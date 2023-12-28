@@ -3,37 +3,37 @@
 local function MCRGREETCMD()
 	TIME = date("%H");
 
-	--Merge array (sources: mcr_greettxt.lua (or the localized variant) and mcr_customtxt.lua (C suffix))
-	if table.getn(GREETTAC) ~= 0 then
-		for i = 1, table.getn(GREETTAC) do
-			table.insert(GREETTA, 1, GREETTAC[i]);
+	--Merge array (Sources: The localized variant of mcr_greettxt_xxYY.lua and mcr_customtxt.lua (Cust suffix))
+	if table.getn(DayTXTCust) ~= 0 then
+		for i = 1, table.getn(DayTXTCust) do
+			table.insert(DayTXT, 1, DayTXTCust[i]);
 		end;
 	end;
 	
-	if not table.getn(GREETMOC) ~= 0 then
-		for i = 1, table.getn(GREETMOC) do
-			table.insert(GREETMO, 1, GREETMOC[i]);
+	if not table.getn(MorTXTCust) ~= 0 then
+		for i = 1, table.getn(MorTXTCust) do
+			table.insert(MorTXT, 1, MorTXTCust[i]);
 		end;
 	end;
 	
-	if not table.getn(GREETABC) ~= 0 then
-		for i = 1, table.getn(GREETABC) do
-			table.insert(GREETAB, 1, GREETABC[i]);
+	if not table.getn(EveTXTCust) ~= 0 then
+		for i = 1, table.getn(EveTXTCust) do
+			table.insert(EveTXT, 1, EveTXTCust[i]);
 		end
 	end;
 	
-	if not table.getn(GREETMITC) ~= 0 then
-		for i = 1, table.getn(GREETMITC) do
-			table.insert(GREETMIT, 1, GREETMITC[i]);
+	if not table.getn(NooTXTCust) ~= 0 then
+		for i = 1, table.getn(NooTXTCust) do
+			table.insert(NooTXT, 1, NooTXTCust[i]);
 		end;
 	end;
 
 
 	-- Determine time of day
-	if	(TIME >= "04" and TIME <  "11") then 		GREETTXT = GREETMO[math.random(table.getn(GREETMO))];
-	elseif	(TIME >= "11" and TIME <= "14") then 	GREETTXT = GREETMIT[math.random(table.getn(GREETMIT))];
-	elseif	(TIME >  "14" and TIME <= "18") then	GREETTXT = GREETTA[math.random(table.getn(GREETTA))];
-	else											GREETTXT = GREETAB[math.random(table.getn(GREETAB))];
+	if	(TIME >= "04" and TIME <  "11") then 		GREETTXT = MorTXT[math.random(table.getn(MorTXT))];
+	elseif	(TIME >= "11" and TIME <= "14") then 		GREETTXT = NooTXT[math.random(table.getn(NooTXT))];
+	elseif	(TIME >  "14" and TIME <= "18") then		GREETTXT = DayTXT[math.random(table.getn(DayTXT))];
+	else												GREETTXT = EveTXT[math.random(table.getn(EveTXT))];
 	end;
 
 -- Output

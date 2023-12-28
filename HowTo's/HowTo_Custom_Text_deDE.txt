@@ -16,10 +16,10 @@ Andernfalls kann es zu Problemen im Spiel kommen.
 
 Es gibt vier "Zeitzonen" für die jeweils eigene Texte verfasst werden können.
 Jede dieser Zeitzonen wird durch eine sog. Variable repräsentiert.
-1. 04:00 bis 10:59 - Morgens - GREETMOC
-2. 11:00 bis 13:59 - Mittags - GREETMITC
-3. 14:00 bis 17:59 - Tagsüber - GREETTAC
-4. 18:00 bis 03:59 - Abends  - GREETABC
+1. 04:00 bis 10:59 - Morgens - MorTXTCust
+2. 11:00 bis 13:59 - Mittags - NooTXTCust
+3. 14:00 bis 17:59 - am Tag  - DayTXTCust
+4. 18:00 bis 03:59 - Abends  - EveTXTCust
 
 Streng genommen handelt es sich nicht um Variablen sondern um Arrays, da hier
 mehrere Werte auf einmal gespeichert werden. Das ist HIER jetzt aber
