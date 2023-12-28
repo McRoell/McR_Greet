@@ -1,4 +1,4 @@
--- MCR Greet V 0.91 --
+-- MCR Greet V 0.92 --
 
 local function MCRGREETCMD()
 	TIME = date("%H");
