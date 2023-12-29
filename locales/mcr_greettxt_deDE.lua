@@ -1,6 +1,7 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "deDE") then
 	print("McR Greet: Grüße auf Deutsch geladen.");
+	ClientLanguage = "set";
 	
 -- Definition der Texte als Array, bzw. Table (LUA halt)
 	DayTXT =	{

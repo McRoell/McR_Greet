@@ -1,6 +1,7 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "ruRU") then
 	print("McR Greet: Приветствие загружено на русском языке.");
+	ClientLanguage = "set";
 
 -- Definition of the texts as an array or table
 	DayTXT =	{

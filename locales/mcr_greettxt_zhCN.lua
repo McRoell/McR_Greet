@@ -1,6 +1,7 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "zhCN") then
 	print("McR Greet: 已加载中文问候语。");
+	ClientLanguage = "set";
 
 -- Definition of the texts as an array or table
 	DayTXT =	{
