@@ -5,26 +5,27 @@ if (GetLocale() == "esMX") then
 	
 -- Definition of the texts as an array or table
 	DayTXT =	{
-    			"HI!",
-      			"G'day!",
-       			"Hello everyone!",
-				"Good afternoon!"
+    			"¡Hola!",
+				"¿Qué tal?", 
+				"¡Hola güey!",
+				"¡Hola wey!", 
+				"¿Qué pasa?"
             	};  
     
     EveTXT = 	{
-              "Good evening",
-              "Buenas Noches!",
-              "Good evening, everyone"
+              	"¡Buenas tardes!",
+				"¡Buenas!",
+				"¡Muy buenas!"
              	};
     
     MorTXT = 	{
-              "GOOD MORNING!",
-              "Good morning everyone!",
-              "It's clearly too early - good morning"
+    			"¡Buenos días!",
+				"¡Buen día!"
              	};
     
     NooTXT = 	{
-              "Good Afternoon",
-              "I hope you have enjoyed you meal, or will..."
+              	"¡Buenas tardes!",
+				"¡Buenas!",
+				"¡Muy buenas!"
              	};
 end;
