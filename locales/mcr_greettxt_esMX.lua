@@ -1,6 +1,6 @@
 -- MCR Greet V 0.93 --
 if (GetLocale() == "esMX") then
-	print("McR Greet: Saludos cargados en español.");
+	print("McR Greet: Saludos cargados en español (Mx).");
 	ClientLanguage = "set";
 	
 -- Definition of the texts as an array or table
