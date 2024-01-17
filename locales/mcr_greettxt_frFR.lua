@@ -5,26 +5,27 @@ if (GetLocale() == "frFR") then
 
 -- Definition of the texts as an array or table
 	DayTXT =	{
-    			"HI!",
-      			"G'day!",
-       			"Hello everyone!",
-				"Good afternoon!"
+						"Bonjour",
+						"Salut",
+						"Coucou",
+						"Comment ça va",
+						"Quoi de neu",
+						"Enchanté"
             	};  
     
     EveTXT = 	{
-              "Good evening",
-              "Buenas Noches!",
-              "Good evening, everyone"
+              "Bonsoir",
+							"Comment ça va",
+							"Quoi de neu",
+							"Bonne soirée"
              	};
     
     MorTXT = 	{
-              "GOOD MORNING!",
-              "Good morning everyone!",
-              "It's clearly too early - good morning"
+              "Bonjour ",
+              "Bonne matiné"
              	};
     
     NooTXT = 	{
-              "Good Afternoon",
-              "I hope you have enjoyed you meal, or will..."
+              "Bon après-midi"
              	};
 end;
