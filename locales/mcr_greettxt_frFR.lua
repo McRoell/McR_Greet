@@ -1,29 +1,31 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "frFR") then
 	print("McR Greet: Salutations chargées en français.");
+	ClientLanguage = "set";
 
 -- Definition of the texts as an array or table
 	DayTXT =	{
-    			"HI!",
-      			"G'day!",
-       			"Hello everyone!",
-				"Good afternoon!"
+						"Bonjour",
+						"Salut",
+						"Coucou",
+						"Comment ça va",
+						"Quoi de neu",
+						"Enchanté"
             	};  
     
     EveTXT = 	{
-              "Good evening",
-              "Buenas Noches!",
-              "Good evening, everyone"
+              "Bonsoir",
+							"Comment ça va",
+							"Quoi de neu",
+							"Bonne soirée"
              	};
     
     MorTXT = 	{
-              "GOOD MORNING!",
-              "Good morning everyone!",
-              "It's clearly too early - good morning"
+              "Bonjour ",
+              "Bonne matiné"
              	};
     
     NooTXT = 	{
-              "Good Afternoon",
-              "I hope you have enjoyed you meal, or will..."
+              "Bon après-midi"
              	};
 end;

@@ -1,29 +1,35 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "ruRU") then
 	print("McR Greet: Приветствие загружено на русском языке.");
+	ClientLanguage = "set";
 
 -- Definition of the texts as an array or table
 	DayTXT =	{
-    			"HI!",
-      			"G'day!",
-       			"Hello everyone!",
-				"Good afternoon!"
-            	};  
+				"Привет",
+				"Привет ребята",
+		 		"Привет всем",
+		 		"Добрый день",
+		 		"Здорово!"
+            	 };  
     
-    EveTXT = 	{
-              "Good evening",
-              "Buenas Noches!",
-              "Good evening, everyone"
+    EveTXT =	{
+				"Буэнас Ночес!",
+				"Добрый вечер всем!",
+				"Привет",
+				"Здорово",
+				"Добрый вечер"
              	};
     
     MorTXT = 	{
-              "GOOD MORNING!",
-              "Good morning everyone!",
-              "It's clearly too early - good morning"
+    	    	"с добрым утром",
+				"Привет",
+				"Здорово",
+				"привет ребята",
+				"привет всем",
              	};
     
     NooTXT = 	{
-              "Good Afternoon",
-              "I hope you have enjoyed you meal, or will..."
+        		"приятного аппетита",
+				"приятного"
              	};
 end;

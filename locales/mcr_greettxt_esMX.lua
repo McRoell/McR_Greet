@@ -1,29 +1,31 @@
--- MCR Greet V 0.92 --
+-- MCR Greet V 0.93 --
 if (GetLocale() == "esMX") then
-	print("McR Greet: Saludos cargados en español.");
+	print("McR Greet: Saludos cargados en español (Mx).");
+	ClientLanguage = "set";
 	
 -- Definition of the texts as an array or table
 	DayTXT =	{
-    			"HI!",
-      			"G'day!",
-       			"Hello everyone!",
-				"Good afternoon!"
+    			"¡Hola!",
+				"¿Qué tal?", 
+				"¡Hola güey!",
+				"¡Hola wey!", 
+				"¿Qué pasa?"
             	};  
     
     EveTXT = 	{
-              "Good evening",
-              "Buenas Noches!",
-              "Good evening, everyone"
+              	"¡Buenas tardes!",
+				"¡Buenas!",
+				"¡Muy buenas!"
              	};
     
     MorTXT = 	{
-              "GOOD MORNING!",
-              "Good morning everyone!",
-              "It's clearly too early - good morning"
+    			"¡Buenos días!",
+				"¡Buen día!"
              	};
     
     NooTXT = 	{
-              "Good Afternoon",
-              "I hope you have enjoyed you meal, or will..."
+              	"¡Buenas tardes!",
+				"¡Buenas!",
+				"¡Muy buenas!"
              	};
 end;

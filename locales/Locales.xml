@@ -1,6 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
-	<Script file="mcr_greettxt_enUS.lua"/>
 	<Script file="mcr_greettxt_deDE.lua"/>
 	<Script file="mcr_greettxt_esES.lua"/>
 	<Script file="mcr_greettxt_esMX.lua"/>
@@ -9,4 +8,6 @@
 	<Script file="mcr_greettxt_ruRU.lua"/>
 	<Script file="mcr_greettxt_zhCN.lua"/>
 	<Script file="mcr_greettxt_zhTW.lua"/>
+<!-- If everything fails, load enUS as default -->
+	<Script file="mcr_greettxt_enUS.lua"/>
 </Ui>
