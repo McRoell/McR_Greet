@@ -5,7 +5,7 @@
 ## Notes-deDE: Grüße in den Gildenchat senden |cffff6060 Usage:|r /mcrgreet   (lies readme_deDE.txt für Details)
 ## Version: 0.93
 ## X-Build: 2
-## X-ReleaseDate: 2023-12-28
+## X-ReleaseDate: 2024-01-21
 
 locales\Locales.xml
 mcr_greet.lua

@@ -1,4 +1,4 @@
-**Version 0.93, 2023-12-28**  
+**Version 0.93, 2024-01-21**  
 Little Tweak on the clients used language (GetLocale)
 
 **Version 0.92a, 2023-12-28**  

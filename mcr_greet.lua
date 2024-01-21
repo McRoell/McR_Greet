@@ -30,14 +30,15 @@ local function MCRGREETCMD()
 
 
 	-- Determine time of day
-	if	(TIME >= "04" and TIME <  "11") then 		GREETTXT = MorTXT[math.random(table.getn(MorTXT))];
-	elseif	(TIME >= "11" and TIME <= "14") then 		GREETTXT = NooTXT[math.random(table.getn(NooTXT))];
-	elseif	(TIME >  "14" and TIME <= "18") then		GREETTXT = DayTXT[math.random(table.getn(DayTXT))];
-	else												GREETTXT = EveTXT[math.random(table.getn(EveTXT))];
+	if	(TIME >= "04" and TIME <  "11") then 				GREETTXT = MorTXT[math.random(table.getn(MorTXT))];
+	elseif	(TIME >= "11" and TIME <= "13") then 		GREETTXT = NooTXT[math.random(table.getn(NooTXT))];
+	elseif	(TIME >  "13" and TIME <= "17") then		GREETTXT = DayTXT[math.random(table.getn(DayTXT))];
+	else																						GREETTXT = EveTXT[math.random(table.getn(EveTXT))];
 	end;
 
 -- Output
 	SendChatMessage(GREETTXT, "GUILD", "", "");
+		
 
 end;
 
