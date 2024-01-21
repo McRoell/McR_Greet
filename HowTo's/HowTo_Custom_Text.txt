@@ -41,7 +41,7 @@ split into multiple lines.
 In our case it would look like this:
 variable = {
             "Hello",
-            "whoo,"
+            "wohoo,"
             "I greet you"
             };
 
