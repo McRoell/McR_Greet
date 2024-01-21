@@ -9,14 +9,14 @@ if (GetLocale() == "frFR") then
 						"Salut",
 						"Coucou",
 						"Comment ça va",
-						"Quoi de neu",
+						"Quoi de neuf",
 						"Enchanté"
             	};  
     
     EveTXT = 	{
               "Bonsoir",
 							"Comment ça va",
-							"Quoi de neu",
+							"Quoi de neuf",
 							"Bonne soirée"
              	};
     
