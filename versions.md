@@ -1,3 +1,6 @@
+**Version 0.93a, 2024-01-22**  
+Fixed a typo in the french localisation file
+
 **Version 0.93, 2024-01-21**  
 Little Tweak on the clients used language (GetLocale)
 

@@ -3,9 +3,9 @@
 ## Author: McRoell
 ## Notes: Send hail's into the guild chat |cffff6060 Usage:|r /mcrgreet  (see readme.txt for details)
 ## Notes-deDE: Grüße in den Gildenchat senden |cffff6060 Usage:|r /mcrgreet   (lies readme_deDE.txt für Details)
-## Version: 0.93
+## Version: 0.93a
 ## X-Build: 2
-## X-ReleaseDate: 2024-01-21
+## X-ReleaseDate: 2024-01-22
 
 locales\Locales.xml
 mcr_greet.lua
