@@ -4,7 +4,7 @@
 ## Notes: Send hail's into the guild chat |cffff6060 Usage:|r /mcrgreet  (see readme.txt for details)
 ## Notes-deDE: Grüße in den Gildenchat senden |cffff6060 Usage:|r /mcrgreet   (lese readme_deDE.txt für Details)
 ## Version: 0.94
-## SavedVariablesPerCharacter: McGreetvars
+## SavedVariablesPerCharacter: McGreetVars
 ## X-Curse-Project-ID: 349813
 ## X-ReleaseDate: 2024-04-13
 

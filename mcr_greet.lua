@@ -1,11 +1,11 @@
---local frame = CreateFrame("Frame")
---frame:RegisterEvent("ADDON_LOADED")
---frame:RegisterEvent("PLAYER_LOGOUT")
+local McGFrame = CreateFrame("Frame")
+McGFrame:RegisterEvent("ADDON_LOADED")
+McGFrame:RegisterEvent("PLAYER_LOGOUT")
 
---frame:SetScript("OnEvent", function(self, event, arg1)
---	if event == "ADDON_LOADED" and arg1 == "McGreet" then
---		print("Variablen geladen")
---	end
+McGFrame:SetScript("OnEvent", function(self, event, arg1)
+	if event == "ADDON_LOADED" and arg1 == "McGreet" then
+		print("Variablen geladen")
+	end
 
 	local function MCRGREETCMD()
 		TIME = date("%H");
@@ -36,22 +36,22 @@
 		end;
 
 -- Determine time of day
-		if			(TIME >= "04" and TIME <  "11") then GREETTXT = MorTXT[math.random(table.getn(MorTXT))];
+		if		(TIME >= "04" and TIME <  "11") then GREETTXT = MorTXT[math.random(table.getn(MorTXT))];
 		elseif	(TIME >= "11" and TIME <= "13") then GREETTXT = NooTXT[math.random(table.getn(NooTXT))];
 		elseif	(TIME >  "13" and TIME <= "17") then GREETTXT = DayTXT[math.random(table.getn(DayTXT))];
-		else																				 GREETTXT = EveTXT[math.random(table.getn(EveTXT))];
+		else										 GREETTXT = EveTXT[math.random(table.getn(EveTXT))];
 		end;
 
 		-- Output
-		SendChatMessage(GREETTXT, "GUILD", nil , "");
+		--SendChatMessage(GREETTXT, "GUILD", nil , "");
 
 
 end
---)
+end)
 
 SLASH_MCRGREET1 = "/mcrgreet"
-SlashCmdList["MCRGREET"] = MCRGREETCMD;
+--SlashCmdList["MCRGREET"] = MCRGREETCMD;
 
---function SlashCmdList.MCGREET(msg)
---	SendChatMessage(GREETTXT, "GUILD", nil , "")
---end
+function SlashCmdList.MCGREET(msg)
+	SendChatMessage(GREETTXT, "GUILD", nil , "")
+end
