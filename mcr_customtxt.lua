@@ -7,9 +7,9 @@
 MorTXTCust =  {
     -- Please enter MORNING greetings below.
     -- Just insert additional lines if needed...
-    
-    
-    
+
+
+
     -- STOP entering lines below this line.
 	};
 
@@ -17,9 +17,11 @@ MorTXTCust =  {
 
 NooTXTCust = {
     -- LUNCH greetings go under here.
-    
-    
-    
+    "Blafasel",
+    "Irgendwas"
+
+
+
     -- STOP entering lines below this line.
 	};
 
@@ -27,9 +29,9 @@ NooTXTCust = {
 
 DayTXTCust = {
     -- DURING THE DAY these texts are chosen.
-    
-    
-    
+
+
+
     -- STOP entering lines below this line.
     };
 
@@ -37,8 +39,8 @@ DayTXTCust = {
 
 EveTXTCust = {
     -- Texts for the EVENING goes down here.
-    
-    
-    
+
+
+
     -- That's all Folks
     };

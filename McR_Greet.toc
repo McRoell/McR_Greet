@@ -10,4 +10,6 @@
 
 locales\Locales.xml
 mcr_greet.lua
+
+# Custom Hails are defined here
 mcr_customtxt.lua
