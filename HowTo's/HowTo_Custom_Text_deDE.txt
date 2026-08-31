@@ -1,0 +1,51 @@
+#### Grundsätzliches ####
+Es sind drei einfache Schritte zum Erfolg.
+
+1. Lest Euch die Anleitung einmal durch, damit es später keine Probleme gibt.
+2. Editiert die Datei mcr_customtxt.lua mit Euren Sprüchen.
+	Es ist wichtig, dass ihr genau diesen Namen verwendet, damit alles 
+	funktioniert.
+3. Macht ein Backup der Datei. Sichert sie irgendwo hin, wo Ihr sie nach einem
+	Update oder einer Neuinstallation des Addons wiederfindet und in den Ordner
+	zurückschreiben könnt.
+
+##### Anleitung und ein wenig Hintergrund #####
+Bitte nur in die dafür vorgesehenen Bereiche schreiben und die Vorgaben
+für Anführungszeichen, Kommata und geschweifte Klammern genau befolgen.
+Andernfalls kann es zu Problemen im Spiel kommen.
+
+Es gibt vier "Zeitzonen" für die jeweils eigene Texte verfasst werden können.
+Jede dieser Zeitzonen wird durch eine sog. Variable repräsentiert.
+1. 04:00 bis 10:59 - Morgens - MorTXTCust
+2. 11:00 bis 13:59 - Mittags - NooTXTCust
+3. 14:00 bis 17:59 - am Tag  - DayTXTCust
+4. 18:00 bis 03:59 - Abends  - EveTXTCust
+
+Streng genommen handelt es sich nicht um Variablen sondern um Arrays, da hier
+mehrere Werte auf einmal gespeichert werden. Das ist HIER jetzt aber
+nebensächlich.
+
+Die Namen der Variablen dürfen nicht verändert werden.
+Wie funktioniert das Ganze jetzt?
+
+Das System folgt einer gewissen Struktur - man spricht hier auch von einer
+Syntax - die wie folgt ausschaut:
+Variable = {Eintrag1, Eintrag2, Eintrag3, usw.};
+
+Die Kommata trennen die einzelnen Werte. Wenn ein Text gespeichert werden soll, muss
+dieser in Anführungszeichen gesetzt werden. Das ganze Paket wird dann mit
+geschweiften Klammern {} umschlossen und mit einem Semikolon ; beendet - im
+Grunde wie ein Punkt einen Satz beendet.
+Damit man sich nicht mit ewig langen Zeilen rumärgern muss, kann man das Ganze
+in mehrere Zeilen aufteilen.
+
+In unserem Fall sähe dass dann so aus:
+Variable = {
+            "Hallo",
+            "Huhu",
+            "Ich grüße Euch"
+            };
+
+Am Ende der letzten Zeile eines Abschnitts kommt kein Komma hin.
+
+Die Kommentare (Zeilen mit -- am Anfang) könnt Ihr entfernen oder einfach drin lassen...
