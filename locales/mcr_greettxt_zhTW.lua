@@ -20,7 +20,6 @@ if (GetLocale() == "zhTW") then
     
     EveTXT = 	{
               "Good evening",
-              "Buenas Noches!",
               "Good evening, everyone"
              	};
     
