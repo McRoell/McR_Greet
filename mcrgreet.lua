@@ -13,19 +13,19 @@ local function MCRGREETCMD()
 			table.insert(DayTXT, 1, DayTXTCust[i]);
 		end;
 	end;
-	
+
 	if #MorTXTCust ~= 0 then
 		for i = 1, #MorTXTCust do
 			table.insert(MorTXT, 1, MorTXTCust[i]);
 		end;
 	end;
-	
+
 	if #EveTXTCust ~= 0 then
 		for i = 1, #EveTXTCust do
 			table.insert(EveTXT, 1, EveTXTCust[i]);
 		end
 	end;
-	
+
 	if #NooTXTCust ~= 0 then
 		for i = 1, #NooTXTCust do
 			table.insert(NooTXT, 1, NooTXTCust[i]);
@@ -42,7 +42,7 @@ local function MCRGREETCMD()
 
 -- Output
 	C_ChatInfo.SendChatMessage(GREETTXT, "GUILD");
-	
+
 
 end;
 

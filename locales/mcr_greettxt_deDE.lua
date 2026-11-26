@@ -2,7 +2,7 @@
 if (GetLocale() == "deDE") then
 	print("McR Greet: Grüße auf Deutsch geladen.");
 	ClientLanguage = "set";
-	
+
 -- Definition der Texte als Array, bzw. Table (LUA halt)
 	DayTXT =	{
 				"MOIN!",
