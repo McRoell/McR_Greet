@@ -1,6 +1,13 @@
 -- MCR Greet V 0.93 --
+
+-- This localization is currently incomplete.
+-- English phrases are used as placeholders where no verified translation exists.
+--
+-- If you are a native speaker and would like to help improve this localization,
+-- your contributions are greatly appreciated.
+
 if (GetLocale() == "zhTW") then
-	print("McR Greet: 以台湾语加载问候语。");
+	print("McR Greet: 標準中文問候語已載入。");
 	ClientLanguage = "set";
 
 -- Definition of the texts as an array or table

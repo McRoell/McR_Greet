@@ -12,7 +12,6 @@ if not (ClientLanguage == "set") then
     
 	EveTXT = {
 			 "Good evening",
-			 "Buenas Noches!",
 			 "Good evening, everyone"
 			 };
     
@@ -24,6 +23,6 @@ if not (ClientLanguage == "set") then
     
 	NooTXT = {
 			 "Good Afternoon",
-             "I hope you have enjoyed you meal, or will..."
+             "I hope you have enjoyed your meal, or will..."
 			 };
 end;
