@@ -1,3 +1,7 @@
+**Version 1.0, 2026-11-25**
+It's about time...
+Making use of SavedVariables, added a configuration window, enables automatic greets
+
 **Version 0.93a, 2024-01-22**  
 Fixed a typo in the french localisation file
 
