@@ -4,7 +4,7 @@
 -- Umändern des Befehls von /mcrgreet auf /sayhi
 -- warum mit /saybye nicht auch eine Verabschiedung nach gleichem Muster realisieren...
 
-local function MCRGREETCMD()
+local function GREETCMD()
 	TIME = date("%H");
 
 	--Merge array (Sources: The localized variant of mcr_greettxt_xxYY.lua and mcr_customtxt.lua (Cust suffix))
@@ -46,19 +46,12 @@ local function MCRGREETCMD()
 
 end;
 
-local function MCRSAYHI()
-	MCRGREETCMD();
-end;
-
-local function MCRSAYBYE()
+local function SENDOFF()
 	print("Bye gesagt");
 end;
 
-SLASH_MCRGREET1 = "/mcrgreet"
-	SlashCmdList["MCRGREET"] = MCRGREETCMD;
-
 SLASH_SAYHI1 = "/sayhi"
-	SlashCmdList["SAYHI"] = MCRSAYHI;
+	SlashCmdList["SAYHI"] = GREETCMD;
 
 SLASH_SAYBYE1 = "/saybye"
-	SlashCmdList["SAYBYE"] = MCRSAYBYE;
+	SlashCmdList["SAYBYE"] = SENDOFF;
